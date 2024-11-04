@@ -1,0 +1,16 @@
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+}
+.btn-outline-success:hover {
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+}
+.border-bottom {
+    border-color: chocolate;
+}
+.link-underline-dark {
+    text-decoration: none;
+    color: white;
+}
