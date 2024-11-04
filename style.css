@@ -1,16 +1,41 @@
 .btn-outline-success {
-    color: chocolate;
     border-color: chocolate;
+    color: chocolate;
 }
 .btn-outline-success:hover {
+    border-color: chocolate;
     background-color: chocolate;
     color: white;
-    border-color: chocolate;
 }
-.border-bottom {
-    border-color: chocolate;
+FOOTER {
+    background-color: black;
+    color: white;
 }
-.link-underline-dark {
+.first-line {
+    border-bottom: 1px solid #392d23;
+}
+.second-line a{
     text-decoration: none;
     color: white;
+}
+.third-line {
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .first-line {
+        text-align: center;
+    }
+}
+@media screen and (max-width:48rem){
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+@media screen and (max-width:48rem){
+    .third-line {
+       display: block;
+       text-align: center;
+    }
 }
